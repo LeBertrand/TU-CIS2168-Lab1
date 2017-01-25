@@ -1,4 +1,4 @@
-//package people;
+package people;
 
 /**
  *
@@ -9,7 +9,7 @@ public class HourlyEmployee extends Employee {
     private int hourlyRate, hoursWorked, unionDues;
 
     //constructors
-    HourlyEmployee(String name, int SSN, int age, int gender, String address,
+    HourlyEmployee(String name, int SSN, int age, char gender, String address,
             String telephoneNumber, String department, String jobTitle, int hireYear, int initialRate, int initialHours, int initialUnionDues) {
         super(name, SSN, age, gender, address, telephoneNumber, department);
         hourlyRate = initialHours;

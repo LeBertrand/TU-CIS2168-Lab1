@@ -1,4 +1,4 @@
-//package people;
+package people;
 
 /**
  *
@@ -9,7 +9,7 @@ public class SalaryEmployee extends Employee {
     private int annualSalary;
 
     //constructors
-    SalaryEmployee(String name, int SSN, int age, int gender, String address,
+    SalaryEmployee(String name, int SSN, int age, char gender, String address,
             String telephoneNumber, String department, String jobTitle,
             int hireYear, int annualSalary);
     

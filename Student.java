@@ -1,4 +1,4 @@
-//package people;
+package people;
 
 /**
  *
@@ -10,7 +10,7 @@ public class Student extends Person {
     private String major;
 
 	//constructors
-    Student(String name, int SSN, int age, int gender,
+    Student(String name, int SSN, int age, char gender,
             String address, String telephoneNumber, int firstGPA, int probGradYear, String probMajor){
         super(name, SSN, age, gender, address, telephoneNumber);
         GPA = firstGPA;

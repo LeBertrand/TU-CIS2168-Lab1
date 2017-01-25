@@ -1,4 +1,4 @@
-//package people;
+package people;
 
 /**
  *
@@ -11,7 +11,7 @@ public class Employee extends Person {
     private int hireYear;
 
     //constructors
-    Employee(String name, int SSN, int age, int gender, String address,
+    Employee(String name, int SSN, int age, char gender, String address,
             String telephoneNumber, String department, String jobTitle, int hireYear) {
         super(name, SSN, age, gender, address, telephoneNumber);
         this.department = department;
